@@ -57,3 +57,4 @@ def shortened_tweet_truncator(tweet)
     tweet
   end
 end
+binding.pry
