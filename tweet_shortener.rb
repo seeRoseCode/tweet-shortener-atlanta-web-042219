@@ -51,8 +51,8 @@ end
 #only display the first 130 characters and then show "..."
 
 def shortened_tweet_truncator(tweet)
-  if selective_tweet_shortener.length > 140
-        puts (word_substituter(tweet)[0...140]) + '...'
+  if word_substituter(tweet).length > 140
+        puts "#{(word_substituter(tweet)[0...140])} + '...'"
   elsif selective_tweet_shortenertweet.length < 140
     tweet
   end
